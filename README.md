@@ -39,3 +39,5 @@ especially [`getElementByXpath`](http://casperjs.org/api.html#clientutils.getEle
 [as demonstrated by Ilya Grigorik](http://www.igvita.com/2012/08/28/web-performance-power-tool-http-archive-har/).
 
 * Write a CasperJS version of [this Mechanize webscraper](https://github.com/subelsky/baltimore_property).
+
+* If you are a Ruby dev, check out [Poltergeist](https://github.com/jonleighton/poltergeist) which lets you write Ruby code to drive PhantomJS.
