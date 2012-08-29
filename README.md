@@ -21,14 +21,17 @@ search terms (like your name).
 
 Exercise 2
 ----------
-* Rewrite the `follow.js` code to run with Casper.
+* Rewrite the `follow.js` code to run with Casper. There's a sample answer in the `js/solutions` directory of this project. No peeking unless you're stuck!
 
 * Modify `googlelinks.js` or `follow.js` to take a screenshot of the results page and save as a `png` file using Casper's [capture method](http://casperjs.org/api.html#casper.capture).
 
 Exercise 3
 ----------
 * Write a basic site availability tester for one of your current projects using Casper's [Tester module](http://casperjs.org/api.html#tester.assert).
-Check out [this example](https://github.com/n1k0/casperjs/blob/master/samples/googletesting.js) for inspiration.
+Check out [this example](https://github.com/n1k0/casperjs/blob/master/samples/googletesting.js) for inspiration. You can run `echo $?` after Casper
+finishes to see an exit code (0 if the tests all pass; otherwise 1);
+
+* There's also a solution for this exercise in `js/solutions`; again, no peeking!
 
 Extra Credit Exploration
 ---------------------------
